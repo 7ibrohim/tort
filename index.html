@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulnoza Cake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#home" class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-cookie-bite"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Gulnoza Cake</h1>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Bosh Sahifa</a></li>
+                    <li><a href="#products" class="nav-link"><i class="fas fa-birthday-cake"></i> Tortlar</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Side Icons -->
+            <div class="nav-right">
+                <div class="nav-contact">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="contact-info">
+                        <span>Qo'ng'iroq qiling</span>
+                        <a href="tel:+998901545449">+998 90 154 54 49</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-menu-header">
+                <div class="mobile-logo">
+                    <i class="fas fa-cookie-bite"></i>
+                    <h3>Shirin Diydor</h3>
+                </div>
+                <button class="mobile-menu-close" id="mobile-menu-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <ul class="mobile-nav-links">
+                <li><a href="#home" class="mobile-nav-link active"><i class="fas fa-home"></i> Bosh Sahifa</a></li>
+                <li><a href="#products" class="mobile-nav-link"><i class="fas fa-birthday-cake"></i> Tortlar</a></li>
+                <li><a href="#cookies" class="mobile-nav-link"><i class="fas fa-cookie"></i> Pechenelar</a></li>
+                <li><a href="#chocolate" class="mobile-nav-link"><i class="fas fa-candy-cane"></i> Shokolad</a></li>
+                <li><a href="#desserts" class="mobile-nav-link"><i class="fas fa-ice-cream"></i> Desertlar</a></li>
+                <li><a href="#gallery" class="mobile-nav-link"><i class="fas fa-images"></i> Galereya</a></li>
+            </ul>
+            
+            <div class="mobile-menu-footer">
+                <div class="mobile-contact">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <span>Telefon raqam</span>
+                        <a href="tel:+998901545449">+998 90 154 54 49</a>
+                    </div>
+                </div>
+                <a href="#order" class="mobile-order-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Buyurtma berish
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2 class="hero-subtitle">Tabiiy ingredientlar</h2>
+            <h1 class="hero-title">Eng Shirin Tajribalar</h1>
+            <p class="hero-description">Har bir lahzaga maxsus shirinliklar. 15 yillik tajriba va sevgi bilan tayyorlanadi</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn-primary">
+                    <i class="fas fa-shopping-bag"></i>
+                    Mahsulotlar
+                </a>
+                <a href="#gallery" class="btn-secondary">
+                    <i class="fas fa-images"></i>
+                    Galereya
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e" alt="Tort" loading="lazy">
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Bizning Tortlar</h2>
+                <p class="section-subtitle">Har bir maxsus kun uchun noyob tortlar</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">Yangi</div>
+                    <div class="product-image">
+                        <img src="foto/photo_3_2025-12-10_20-15-45.jpg" alt="Qulupnayli Tort" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Choccoberry</h3>
+                        <p class="product-description">Yangi qulupnay va vanil kremi bilan</p>
+                        <div class="product-footer">
+                            <span class="product-price">400,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="foto/photo_4_2025-12-10_20-15-45.jpg" alt="Shokoladli Tort" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Chesee Cake</h3>
+                        <p class="product-description">Qora shokolad va qaymoqli krem</p>
+                        <div class="product-footer">
+                            <span class="product-price">350,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-badge">Mashhur</div>
+                    <div class="product-image">
+                        <img src="foto/photo_1_2025-12-10_20-15-45.jpg" alt="To'y Tortuni" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Onajonlar Torti</h3>
+                        <p class="product-description">3 qavatli, maxsus bezatilgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">450,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all">
+                <a href="./buyurtma.html" class="view-all-btn">
+                    Barchasini ko'rish
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- COOKIES SECTION -->
+    <!--   -->
+
+    <!-- MEDIA SECTION -->
+    <section class="media-section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Media va Galereya</h2>
+                <p class="section-subtitle">Bizning ishlarimizdan lavhalar</p>
+            </div>
+            
+            <div class="media-content">
+                <div class="media-grid active" id="photos">
+                    <div class="media-item">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Tort 1" loading="lazy">
+                        <div class="media-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="media-item">
+                        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e" alt="Tort 2" loading="lazy">
+                        <div class="media-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="media-item">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187" alt="Desert 1" loading="lazy">
+                        <div class="media-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="media-item">
+                        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136" alt="Tayyorlash" loading="lazy">
+                        <div class="media-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="media-item">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187" alt="Desert 2" loading="lazy">
+                        <div class="media-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="media-item">
+                        <img src="https://images.unsplash.com/photo-1555507036-ab794f27d2e9" alt="Pechene" loading="lazy">
+                        <div class="media-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="media-item">
+                        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e" alt="Tort 2" loading="lazy">
+                        <div class="media-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="media-item">
+                        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e" alt="Tort 2" loading="lazy">
+                        <div class="media-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="media-grid" id="videos">
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136" alt="Video 1" loading="lazy">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <h3>Tort Tayyorlash</h3>
+                        <p>3 daqiqa • 2 kun oldin</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1511381939415-e44015466834" alt="Video 2" loading="lazy">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <h3>Shokolad Ishlab Chiqarish</h3>
+                        <p>5 daqiqa • 1 hafta oldin</p>
+                    </div>
+                </div>
+                
+                <div class="instagram-grid" id="reels">
+                    <div class="instagram-item">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187" alt="Reel 1" loading="lazy">
+                        <div class="instagram-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="instagram-item">
+                        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e" alt="Reel 2" loading="lazy">
+                        <div class="instagram-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#" class="social-link instagram">
+                    <i class="fab fa-instagram"></i>
+                    @gulnoza_c
+                </a>
+                <a href="#" class="social-link telegram">
+                    <i class="fab fa-telegram"></i>
+                    Telegram kanal
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-cookie-bite"></i>
+                        <div>
+                            <h3>Gulnoza Cake</h3>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Eng yaxshi ingredientlar, eng chiroyli dizayn va eng mazali shirinliklar.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Tez Havolalar</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Bosh Sahifa</a></li>
+                        <li><a href="#products">Tortlar</a></li>
+                        <li><a href="#gallery">Galereya</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Aloqa</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Namangan shahri</p>
+                        <p><i class="fas fa-phone"></i> +998 90 154 54 49</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ish Soatlari</h4>
+                    <div class="working-hours">
+                        <p>Dushanba - Shanba: 9:00 - 17:00</p>
+                        <p>Dam olish kuni: Yakshanba</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2010 Sarbon Saboss. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

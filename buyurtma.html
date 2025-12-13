@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="./index.html" class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-cookie-bite"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Gulnoza Cake</h1>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Bosh Sahifa</a></li>
+                    <li><a href="#products" class="nav-link"><i class="fas fa-birthday-cake"></i> Tortlar</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Side Icons -->
+            <div class="nav-right">
+                <div class="nav-contact">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="contact-info">
+                        <span>Qo'ng'iroq qiling</span>
+                        <a href="tel:+998901545449">+998 90 154 54 49</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-menu-header">
+                <div class="mobile-logo">
+                    <i class="fas fa-cookie-bite"></i>
+                    <h3>Shirin Diydor</h3>
+                </div>
+                <button class="mobile-menu-close" id="mobile-menu-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <ul class="mobile-nav-links">
+                <li><a href="#home" class="mobile-nav-link active"><i class="fas fa-home"></i> Bosh Sahifa</a></li>
+                <li><a href="#products" class="mobile-nav-link"><i class="fas fa-birthday-cake"></i> Tortlar</a></li>
+                <li><a href="#cookies" class="mobile-nav-link"><i class="fas fa-cookie"></i> Pechenelar</a></li>
+                <li><a href="#chocolate" class="mobile-nav-link"><i class="fas fa-candy-cane"></i> Shokolad</a></li>
+                <li><a href="#desserts" class="mobile-nav-link"><i class="fas fa-ice-cream"></i> Desertlar</a></li>
+                <li><a href="#gallery" class="mobile-nav-link"><i class="fas fa-images"></i> Galereya</a></li>
+            </ul>
+            
+            <div class="mobile-menu-footer">
+                <div class="mobile-contact">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <span>Telefon raqam</span>
+                        <a href="tel:+998901545449">+998 90 154 54 49</a>
+                    </div>
+                </div>
+                <a href="#order" class="mobile-order-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Buyurtma berish
+                </a>
+            </div>
+        </div>
+    </nav>
+     <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Bizning Tortlar</h2>
+                <p class="section-subtitle">Har bir maxsus kun uchun noyob tortlar</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">Yangi</div>
+                    <div class="product-image">
+                        <img src="./foto/photo_10_2025-12-10_20-15-45.jpg" alt="Qulupnayli Tort" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Chashkali desert</h3>
+                        <p class="product-description">Yangi qulupnay va vanil kremi bilan</p>
+                        <div class="product-footer">
+                            <span class="product-price">150,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Yangi</div>
+                    <div class="product-image">
+                        <img src="./foto/photo_12_2025-12-10_20-15-45.jpg" alt="Qulupnayli Tort" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Malinoviy Tort</h3>
+                        <p class="product-description">Yangi qulupnay va vanil kremi bilan</p>
+                        <div class="product-footer">
+                            <span class="product-price">1,000,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Yangi</div>
+                    <div class="product-image">
+                        <img src="foto/photo_1_2025-12-10_20-15-45.jpg" alt="Qulupnayli Tort" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Onajonlar uchun Tort</h3>
+                        <p class="product-description">Yangi qulupnay va vanil kremi bilan</p>
+                        <div class="product-footer">
+                            <span class="product-price">450,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="foto/photo_2_2025-12-10_20-15-45.jpg" alt="Shokoladli Tort" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Qulupnaylik Tort</h3>
+                        <p class="product-description">Qora shokolad va qaymoqli krem</p>
+                        <div class="product-footer">
+                            <span class="product-price">700,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-badge">Mashhur</div>
+                    <div class="product-image">
+                        <img src="foto/photo_3_2025-12-10_20-15-45.jpg" alt="To'y Tortuni" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Chocoberry</h3>
+                        <p class="product-description">3 qavatli, maxsus bezatilgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">400,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Mashhur</div>
+                    <div class="product-image">
+                        <img src="foto/photo_4_2025-12-10_20-15-45.jpg" alt="To'y Tortuni" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Chesee Cake</h3>
+                        <p class="product-description">3 qavatli, maxsus bezatilgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">350,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Mashhur</div>
+                    <div class="product-image">
+                        <img src="foto/photo_5_2025-12-10_20-15-45.jpg" alt="To'y Tortuni" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Akalar uchun Tort</h3>
+                        <p class="product-description">3 qavatli, maxsus bezatilgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">300,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Mashhur</div>
+                    <div class="product-image">
+                        <img src="foto/photo_6_2025-12-10_20-15-45.jpg" alt="To'y Tortuni" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">1 metrlik Tort</h3>
+                        <p class="product-description">3 qavatli, maxsus bezatilgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">1,500,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Mashhur</div>
+                    <div class="product-image">
+                        <img src="foto/photo_7_2025-12-10_20-15-45.jpg" alt="To'y Tortuni" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Fotiha</h3>
+                        <p class="product-description">3 qavatli, maxsus bezatilgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">650,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Mashhur</div>
+                    <div class="product-image">
+                        <img src="foto/photo_8_2025-12-10_20-15-45.jpg" alt="To'y Tortuni" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Napaleon</h3>
+                        <p class="product-description">3 qavatli, maxsus bezatilgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">350,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Mashhur</div>
+                    <div class="product-image">
+                        <img src="foto/photo_9_2025-12-10_20-15-45.jpg" alt="To'y Tortuni" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Bento</h3>
+                        <p class="product-description">3 qavatli, maxsus bezatilgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">250,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Mashhur</div>
+                    <div class="product-image">
+                        <img src="foto/photo_11_2025-12-10_20-15-45.jpg" alt="To'y Tortuni" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Ekler</h3>
+                        <p class="product-description">3 qavatli, maxsus bezatilgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">140,000 so'm</span>
+                            <button class="add-to-cart">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="kop_ka">
+
+                    <a class="kop" href="./index.html">Asosuy bo'limga o'tish</a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-cookie-bite"></i>
+                        <div>
+                            <h3>Gulnoza Cake</h3>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Eng yaxshi ingredientlar, eng chiroyli dizayn va eng mazali shirinliklar.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Tez Havolalar</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Bosh Sahifa</a></li>
+                        <li><a href="#products">Tortlar</a></li>
+                        <li><a href="#gallery">Galereya</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Aloqa</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Namangan shahri</p>
+                        <p><i class="fas fa-phone"></i> +998 90 154 54 49</p>
+                        <p><i class="fas fa-envelope"></i> info@shirindiydor.uz</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ish Soatlari</h4>
+                    <div class="working-hours">
+                        <p>Dushanba - Shanba: 9:00 - 17:00</p>
+                        <p>Dam olish kuni: Yakshanba</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2010 Sarbon Saboss. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
